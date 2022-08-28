@@ -46,7 +46,7 @@
   "scripts": {
     "build:esm": "tsc --module esnext --outDir esm --declaration true && renamer --find '/.js/' --replace '.mjs' esm/**",
     "build:cjs": "tsc --module commonjs --outDir cjs && renamer --find '/.js/' --replace '.cjs' cjs/**",
-    "build": "yarn build:esm && yarn build:cjs",
+    "build": "yarn clean && yarn build:esm && yarn build:cjs",
     "clean": "rm -rf cjs esm"
   },
   "files": [
