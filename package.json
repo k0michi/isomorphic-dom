@@ -1,12 +1,12 @@
 {
   "name": "@k0michi/isomorphic-dom",
   "dependencies": {
-    "jsdom": "^20.0.0"
+    "jsdom": "^25.0.1"
   },
   "devDependencies": {
-    "@types/jsdom": "^20.0.0",
+    "@types/jsdom": "^21.1.7",
     "renamer": "^4.0.0",
-    "typescript": "^4.7.3"
+    "typescript": "^4.9.5"
   },
   "description": "A proxy library to jsdom and native DOM API.",
   "version": "0.0.1",
