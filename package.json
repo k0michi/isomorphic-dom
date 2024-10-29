@@ -22,7 +22,8 @@
         "import": "./esm/index.client.mjs",
         "require": "./cjs/index.client.cjs",
         "default": "./esm/index.client.mjs"
-      }
+      },
+      "types": "./esm/index.client.d.ts"
     }
   },
   "browser": {
@@ -31,7 +32,7 @@
   },
   "main": "./cjs/index.cjs",
   "module": "./esm/index.mjs",
-  "types": "./esm/index.d.ts",
+  "types": "./esm/index.client.d.ts",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/k0michi/isomorphic-dom.git"
